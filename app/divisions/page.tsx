@@ -11,7 +11,7 @@ import { DIVISIONS, HERO_SUMMARY, PHASES } from './data'
 export const metadata: Metadata = {
   title: 'Divisions · CNI',
   description:
-    'Seven flagship divisions across automotive, business facilitation, travel, real estate, logistics, home services, and hospitality.',
+    'Eight flagship divisions across automotive, business facilitation, travel, real estate, logistics, home services, hospitality, and AI & digital.',
 }
 
 export default function Divisions() {
@@ -43,7 +43,7 @@ export default function Divisions() {
               </div>
 
               <h1 className="font-display-xl text-display-xl-mobile font-bold leading-tight tracking-tight text-white drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)] lg:text-display-xl">
-                Seven flagship divisions, one integrated{' '}
+                Eight flagship divisions, one integrated{' '}
                 <span className="text-primary-fixed-dim underline decoration-tertiary-fixed decoration-4 underline-offset-8">
                   ecosystem
                 </span>
@@ -61,7 +61,7 @@ export default function Divisions() {
               <span className={EYEBROW}>Explore the Portfolio</span>
               <h2 className={H2}>Every division, in detail</h2>
               <p className={`font-body-md text-body-md ${BODY}`}>
-                Step through all seven divisions — phase status, economics, and what each one
+                Step through all eight divisions — phase status, economics, and what each one
                 contributes to the platform.
               </p>
             </div>

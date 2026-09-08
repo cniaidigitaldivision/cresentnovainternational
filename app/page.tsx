@@ -166,7 +166,7 @@ export default function Home() {
             <div className="mb-space-2xl flex flex-col justify-between gap-space-md md:flex-row md:items-end">
               <div className="max-w-2xl space-y-space-xs">
                 <span className={EYEBROW}>Ecosystem Architecture</span>
-                <h2 className={H2}>Seven flagship divisions, one powerful platform</h2>
+                <h2 className={H2}>Eight flagship divisions, one powerful platform</h2>
                 <p className={`font-body-md text-body-md ${BODY}`}>
                   Each division operates as an independent revenue stream while contributing to a
                   unified ecosystem aligned directly with Vision 2030.
@@ -186,9 +186,7 @@ export default function Home() {
                 <Reveal
                   key={division.n}
                   delay={(i % 3) * 0.06}
-                  className={`group relative isolate flex min-h-[340px] flex-col justify-between overflow-hidden rounded-2xl bg-ink p-space-xl shadow-sm transition-all duration-300 hover:shadow-xl ${
-                    division.n === '07' ? 'md:col-span-2 lg:col-span-1' : ''
-                  }`}
+                  className="group relative isolate flex min-h-[340px] flex-col justify-between overflow-hidden rounded-2xl bg-ink p-space-xl shadow-sm transition-all duration-300 hover:shadow-xl"
                 >
                   {/* Division photo as the card ground, matching the /divisions slides. */}
                   <Image
@@ -203,7 +201,7 @@ export default function Home() {
                       throughout and only lifts near the top where the photo can read. */}
                   <div
                     aria-hidden="true"
-                    className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/92 to-ink/60"
+                    className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/[0.92] to-ink/60"
                   />
 
                   <div>

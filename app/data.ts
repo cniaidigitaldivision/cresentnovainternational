@@ -4,7 +4,7 @@
 export const KEY_STATS = [
   { value: '18+', label: 'Years of Legacy', detail: 'Attari Group institutional track record since 2007' },
   { value: '2.5M+', label: 'Pakistani Diaspora', detail: 'Thriving commercial corridor across Saudi Arabia' },
-  { value: '7', label: 'Flagship Divisions', detail: 'Diversified recurring revenue engines in key sectors' },
+  { value: '8', label: 'Flagship Divisions', detail: 'Diversified recurring revenue engines in key sectors' },
   { value: '0', label: 'Investor Disputes', detail: '100% fiduciary compliance over 18 continuous years' },
 ]
 
@@ -72,6 +72,14 @@ export const DIVISIONS = [
     image: '/divisions/my-truck.webp',
     slug: 'my-truck',
     body: 'On-demand shared-load freight matching system transforming intercity cargo transit between major logistics hubs including Dammam, Riyadh, and Jeddah.',
+  },
+  {
+    n: '08',
+    icon: 'smart_toy',
+    title: 'CNI AI & Digital Division',
+    image: '/divisions/ai-and-digital.webp',
+    slug: 'ai-digital',
+    body: 'Integrated AI, enterprise software, and digital growth solutions — intelligent automation, CRM & sales systems, creative marketing, and cloud, data & cybersecurity built for measurable business performance.',
   },
 ]
 
@@ -314,7 +322,7 @@ export const FAQS = [
   },
   {
     q: 'Is this vehicle strictly Sharia-compliant?',
-    a: 'Yes. All 7 divisions generate cash flows strictly through physical commercial services (Musharakah / Mudarabah principles), real asset leasing (Ijarah), and legitimate trading margins. We do not participate in interest-bearing debt instruments, derivatives, or speculative trading.',
+    a: 'Yes. All 8 divisions generate cash flows strictly through physical commercial services (Musharakah / Mudarabah principles), real asset leasing (Ijarah), and legitimate trading margins. We do not participate in interest-bearing debt instruments, derivatives, or speculative trading.',
   },
   {
     q: 'Can Pakistani non-resident investors repatriate capital?',

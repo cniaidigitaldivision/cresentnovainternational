@@ -145,6 +145,25 @@ export const DIVISIONS: Division[] = [
       'Optimized load utilization',
     ],
   },
+  {
+    slug: 'ai-digital',
+    n: '08',
+    icon: 'smart_toy',
+    image: '/divisions/ai-and-digital.webp',
+    phase: 'Phase 2–3',
+    live: false,
+    name: 'CNI AI & Digital Division',
+    tagline: 'AI, enterprise software & digital growth',
+    description:
+      'Integrated AI, enterprise software and digital growth solutions for measurable business performance — serving the platform’s own divisions first, then external clients across KSA.',
+    highlights: [
+      'AI & Intelligent Automation',
+      'Software & Enterprise Systems',
+      'CRM, WhatsApp & Sales Automation',
+      'Digital Marketing & Creative',
+      'Cloud, Data & Cybersecurity',
+    ],
+  },
 ]
 
 export const HERO_SUMMARY =
@@ -164,6 +183,6 @@ export const PHASES = [
   {
     phase: 'Phase 2–3',
     live: false,
-    divisions: ['Logistics (My Truck)'],
+    divisions: ['Logistics (My Truck)', 'AI & Digital Division'],
   },
 ]
