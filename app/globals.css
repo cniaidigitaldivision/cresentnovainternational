@@ -1,0 +1,70 @@
+/* Self-hosted Material Symbols (woff2 + the .material-symbols-outlined class).
+   It must be imported ABOVE the Tailwind directives: the package sets a 24px
+   default font-size at single-class specificity, so it has to lose on source
+   order to the `text-lg` / `text-xl` / ... utilities the icons carry. */
+@import 'material-symbols/outlined.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  /* darkMode is "class", so the .dark on <html> drives every dark: variant below. */
+  :root.dark {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    @apply bg-surface font-body-md text-body-md text-on-surface dark:bg-ink dark:text-tertiary;
+  }
+
+  /* Anchor targets clear the fixed header (80px mobile, 96px from lg). */
+  [id] {
+    scroll-margin-top: 6rem;
+  }
+
+  ::selection {
+    @apply bg-tertiary text-ink;
+  }
+
+  input,
+  select,
+  button,
+  textarea {
+    font: inherit;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* The variable-font axes the package's CSS leaves unset. Size stays absent so the
+     utility classes on each icon keep control of it. */
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
