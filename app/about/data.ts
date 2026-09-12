@@ -99,7 +99,6 @@ export const DIFFERENTIATORS = [
 // (team/*.jpg) are not present in this repo.
 export const ABOUT_LEADERS = [
   { name: 'Saif ur Rehman', role: 'Chief Executive Officer — CNI KSA' },
-  { name: 'Shoaib Ashraf', role: 'GM — Growth & Strategic Partnerships, CNI KSA' },
   { name: 'Khalid Malik', role: 'Director — HR, Admin & Operations' },
   { name: 'Badar Elahi', role: 'Director Business Facilitation — CNI KSA' },
 ]

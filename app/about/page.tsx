@@ -197,7 +197,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-space-lg sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-space-lg sm:grid-cols-2 lg:grid-cols-3">
               {ABOUT_LEADERS.map((leader, i) => (
                 <Reveal
                   key={leader.name}
