@@ -237,16 +237,6 @@ export const LEADERS = [
     zoom: 1.45,
   },
   {
-    eyebrow: 'Strategic Expansion',
-    name: 'Shoaib Ashraf',
-    role: 'GM, Growth & Strategic Partnerships',
-    alt: 'Corporate headshot of Shoaib Ashraf, General Manager of Growth and Strategic Partnerships',
-    src: '/shoaib-ashraf.png',
-    // Square crop leaves a lot of chest in frame; tighten onto the face.
-    objectPosition: '50% 15%',
-    zoom: 1.25,
-  },
-  {
     eyebrow: 'Operations & HR',
     name: 'Khalid Malik',
     role: 'Director, HR, Admin & Operations',

@@ -482,7 +482,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="mb-space-2xl grid grid-cols-1 gap-space-lg sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mb-space-2xl grid grid-cols-1 gap-space-lg sm:grid-cols-2 lg:grid-cols-3">
               {LEADERS.map((leader, i) => (
                 <Reveal
                   key={leader.name}
